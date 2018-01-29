@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Spaceship from './components/Spaceship';
 
 const colors = ['black', 'red'];
+const 
 
 ReactDOM.render(
   <Spaceship name="Millennium Falcon" speed={10} />,
