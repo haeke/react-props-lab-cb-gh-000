@@ -7,6 +7,6 @@ const colors = ['black', 'red'];
 const hasRockets = false;
 
 ReactDOM.render(
-  <Spaceship name="Millennium Falcon" speed={10} />,
+  <Spaceship name="Millennium Falcon" speed={10} colors={colors} hasRockets={hasRockets} />,
   document.getElementById('global')
 );
